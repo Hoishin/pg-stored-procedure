@@ -1,0 +1,55 @@
+{
+  "name": "pg-stored-procedure",
+  "version": "0.0.0",
+  "description": "CLI for scaffolding out PostgreSQL stored procedures",
+  "license": "MIT",
+  "repository": "Hoishin/pg-stored-procedure",
+  "author": {
+    "name": "Hoishin",
+    "email": "hoishinxii@gmail.com",
+    "url": "github.com/Hoishin"
+  },
+  "bin": {
+    "pgsp": "cli.js",
+    "pg-stored-procedure": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "pg",
+    "plpgsql",
+    "sql",
+    "postgres",
+    "postgresql",
+    "stored-procedure",
+    "stored",
+    "procedure"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "node-clipboard": "^1.2.0",
+    "resolve-cwd": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "codecov": "^2.2.0",
+    "nyc": "^11.0.0",
+    "xo": "^0.18.2"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}

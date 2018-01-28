@@ -1,0 +1,14 @@
+DROP TYPE IF EXISTS type_get_test CASCADE;
+CREATE TYPE type_get_test AS (
+
+);
+
+CREATE OR REPLACE FUNCTION get_test(
+
+) RETURNS SETOF type_get_test AS $FUNCTION$
+DECLARE
+
+BEGIN
+
+END;
+$FUNCTION$ LANGUAGE plpgsql;
