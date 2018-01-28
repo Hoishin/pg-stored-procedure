@@ -1,6 +1,6 @@
 {
   "name": "pg-stored-procedure",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CLI for scaffolding out PostgreSQL stored procedures",
   "license": "MIT",
   "repository": "Hoishin/pg-stored-procedure",
